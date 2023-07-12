@@ -1,10 +1,10 @@
 # Benchmarks
 
-Codemagic released the powerful Mac mini M2 for the developers to build and test their apps faster. This document contains tests run on popular open-source native iOS projects to give you an idea about the fast speed in a real-world scenario and the comparison with M2 and M1 machines.
+Codemagic released the powerful Mac mini M2 for developers to build and test their apps faster. This document contains tests run on popular open-source native iOS projects to give you an idea of the fast speeds available in  real-world scenarios and the comparison between M1 and M2 machines.
 
 ## [Xcode Benchmark](https://github.com/nevercode-rudrank/Benchmarks/tree/benchmark)
 
-The first project is the famous `XcodeBenchmark` used to provide an idea about the performance of Mac mini M2 and Mac mini M1. It is a framework that includes **42 popular CocoaPods** libraries and **70+ dependencies** in total.
+The first project is the famous `XcodeBenchmark` used to provide an indication of the performance of Mac mini M2 and Mac mini M1 machines. It is a framework that includes **42 popular CocoaPods** libraries and **70+ dependencies** in total.
 
 **Test name** | **Codemagic (Mac mini M2)** | **Codemagic (Mac mini M1)**
 --- | --- | ---
@@ -17,7 +17,7 @@ Running Benchmark Tests | **3m 35s** | 5m 35s
 
 ## [Wikipedia iOS](https://github.com/nevercode-rudrank/wikipedia-ios)
 
-The official Wikipedia iOS app is open-sourced. It also contains multiple dependencies and hundreds of tests.
+The official Wikipedia iOS app is open-source. It contains multiple dependencies and hundreds of tests.
 
 **Test name** | **Codemagic (Mac mini M2)** | **Codemagic (Mac mini M1)**
 --- | --- | ---
@@ -31,7 +31,7 @@ Running Tests | **2m 34s** | 3m 27s
 
 ## [Signal iOS](https://github.com/nevercode-rudrank/Signal-iOS)
 
-Signal is a free, open source, messaging app for simple private communication with friends. It is a great project for testing out benchmarks that replicates a real-world application.
+Signal is billed as a free, open source, messaging app for simple private communication with friends. It is a great project to use for benchmarks as a indicative real-world, published and widely used iOS application.
 
 **Test name** | **Codemagic (Mac mini M2)** | **Codemagic (Mac mini M1)**
 --- | --- | ---
