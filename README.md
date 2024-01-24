@@ -21,7 +21,7 @@ The official Wikipedia iOS app is open-source. It contains multiple dependencies
 
 **Test name** | **Codemagic (Mac mini M2)** | **Codemagic (Mac mini M1)**
 --- | --- | ---
-Building Wikipedia Project | **1m 20s** | 1m 16s
+Building Wikipedia Project | **1m 20s** | 1m 39s
 Running Wikipedia Tests | **2m 34s** | 
 
 - [`codemagic.yaml`](https://github.com/codemagic-ci-cd/wikipedia-ios/blob/main/codemagic.yaml)
